@@ -9,7 +9,7 @@ This is a simple Registration Form designed using only **HTML** and **CSS**.
 > ![Design Strategy](design-strategy.jpg)
 
 ## Project Presentation Video
-> ![Watch the video]([(https://youtu.be/0upScTj29ic?si=QjaW-pc8JWj0mn1N)])
+> ![Watch the video]((https://youtu.be/0upScTj29ic?si=QjaW-pc8JWj0mn1N))
 
 ## How to Use
 1. Clone or download the repository.
