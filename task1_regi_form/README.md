@@ -10,6 +10,7 @@ This is a simple Registration Form designed using only **HTML** and **CSS**.
 
 ## Project Presentation Video
 > ![Watch the video](https://drive.google.com/file/d/10BuTUVBNfJE2-aH6vDOLsAxbUrYBL0RA/view?usp=sharing)
+> [![Watch the video](https://img.youtube.com/vi/_5tFXJQIzi4/0.jpg)](https://www.youtube.com/watch?v=_5tFXJQIzi4)
 
 ## How to Use
 1. Clone or download the repository.
