@@ -1,0 +1,156 @@
+
+/* targets every element on the page by universal selector */
+* {
+    /* the padding and border are included inside the width and height of an element */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* applies Flexbox layout to the body, enabling flexible alignment of child elements */
+    /* makes it easy to center content both horizontally and vertically */
+    display: flex;
+    /* Horizontally centers child elements within the body. */
+    justify-content: center;
+    /* Vertically centers child elements within the body. */
+    align-items: center;
+    /* Sets the minimum height of the body to 100% of the viewport height */
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(176, 57, 219, 1) 92%);
+}
+
+/* styling elements with the class .card */
+.card {
+    background-color: #f9fff9;
+    width: 700px;
+    min-height: 70vh;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* styling all h2 elements inside an element with the class .card */
+.card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* styling <form> elements */
+form {
+    /* makes the <form> element a flex container, enabling Flexbox layout for its child elements */
+    display: flex;
+    /* arranges all child elements inside the <form> vertically */
+    flex-direction: column;
+    /* adds 20 pixels of vertical space between each child element inside the form. */
+    gap: 20px;
+}
+
+/* styling all elements with the class .row */
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* styling all elements with the class .form-group */
+.form-group {
+    /* tells the .form-group to grow and fill available space equally with other flex items inside the same parent. */
+    flex: 1;
+    /* makes the .form-group a flex container, enabling Flexbox layout for its child elements */
+    display: flex;
+    /* arranges all child elements vertically (lebel and input field) inside the .form-group vertically */
+    flex-direction: column;
+}
+
+/* styling <label> elements */
+label {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+
+/* styling input (type text, email, tel and passowrd) elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* styling all elements with the class .gender-group */
+.gender-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+/* styling all <label> elements inside an element with the class .gender-group */
+.gender-group label {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* styling all elements with the class .button-group */
+.button-group {
+    display: flex;
+    justify-content:left;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* styling all <button> elements */
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    transition: background 0.3s ease;
+}
+
+/* styling all <button> elements on hover event*/
+button:hover {
+    opacity: 0.8;
+}
+
+/* styling all elements with the class .cancel */
+.cancel {
+    background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+}
+
+/* styling all elements with the class .submit */
+.submit{
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(176, 57, 219, 1) 92%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .gender-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
