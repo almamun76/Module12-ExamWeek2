@@ -11,8 +11,7 @@ This is a simple Task Manager built using **HTML**, **Bootstrap 5.3**, and **Van
 > ![Task Output](taskmanager.jpg)
 
 ## Project Presentation Video
-> ![Watch the video](https://drive.google.com/file/d/1GquKciqkOgjaiEJ2xOWh0iFNvuy69lZq/view?usp=sharing)
-> (https://youtu.be/LeMZs869DRw?si=UsVHGGMN0rN8nncm)
+> ![Watch the video](https://youtu.be/LeMZs869DRw?si=UsVHGGMN0rN8nncm)
 
 ## How to Use
 1. Clone or download the repository.
